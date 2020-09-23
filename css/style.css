@@ -1,0 +1,27 @@
+:root {
+    --dark-color: rgb(71, 28, 3);
+    --medium-color: rgb(160, 59, 0);
+    --light-color: rgb(196, 80, 13);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #777;
+    padding: 2rem;
+}
+
+.header {
+    height:95vh;
+    background-image: url('../img/pexels-zack-melhus-3363295.jpg');
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
